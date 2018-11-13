@@ -6,7 +6,6 @@
 				
 		function on_follow(){
 			$messages = array("Welcome {$this->profile->display_name}.",
-							  "Type /play to play.",
 							  $this->createMenu());
 			return $messages;
 		}
