@@ -2,6 +2,7 @@
 	class TicTacToe extends Line_Apps{
 
 		var $data;
+		var $imageUrl = 'https://yourdomain/image.php';
 				
 		function on_follow(){
 			$messages = array("Welcome {$this->profile->display_name}.",
@@ -160,7 +161,7 @@
 
 			$message = array(
 			  "type" => "imagemap",
-			  "baseUrl" => "https://hantoro.web.id/services/bot_framework/image.php/{$sfields}",
+			  "baseUrl" => "{$this->imageUrl}/{$sfields}",
 			  "altText" => "TicTacToe",
 			  "baseSize"=>  array(
 			      "height" => 1040,
