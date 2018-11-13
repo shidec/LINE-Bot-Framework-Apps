@@ -20,3 +20,5 @@ TicTacToe multiplayer game
 # Notes
 
 Change $imageUrl variable on TicTacToe.php to match your server. 
+
+Import table.sql to the MySQL server.
