@@ -1,7 +1,7 @@
 # Anonymous Chat
 Anonymous chat bot to show basic multiplayer game. 
 
-![alt text](screenshot.jpeg "ScreenShot")
+![alt text](screenshot.png "ScreenShot")
 
 # File Structure
 
