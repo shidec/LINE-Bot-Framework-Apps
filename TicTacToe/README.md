@@ -8,9 +8,13 @@ TicTacToe multiplayer game
 # File Structure
 
 /--apps/TicTacToe.php
+
 /--samples/bg_ttt.png
+
 /--samples/o.png
+
 /--samples/x.png
+
 /--image.php
 
 # Notes
